@@ -11,7 +11,7 @@ import { ResumeService } from './shared/service/dados.service';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,44 @@
+[
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "PROVERTECH",
+    "periodo": "Agosto de 2022 - Fevereiro de 2023",
+    "descricao": "Desenvolvedor front-end com habilidades em UX/UI, experiência com React.js, Angular 8+ e TypeScript,trabalhando na criação e implementação de recursos, atualização e manutenção de sistemas e prototipagem de novos recursos usando metodologia ágil na ProverTech (Sefaz Maranhão) desde agosto de 2022.",
+    "tipoContrato": "Temporario"
+  },
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "SIMPRESS - HP",
+    "periodo": "Fevereiro de 2022 - Atualmente",
+    "descricao": "Desenvolvedor web contratado pela Simpress (HP), atuando na criação e implementação de novas features, atualização e manutenção dos sistemas, e prototipação de novas features com metodologia ágil, utilizando tecnologias e ferramentas como HTML, CSS, Jasmine/JwHelperService/Fakers, SASS, SQL, AspNet, AspClassic, Angular 8+, TypeScript, ChartsJS, MapsJS e Figma.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "SOFTWILLIANS",
+    "periodo": "Fevereiro de 2021 - Fevereiro de 2022",
+    "descricao": "Desenvolvedor web contratado pela Simpress (HP), atuando na criação e implementação de novas features, atualização e manutenção dos sistemas, e prototipação de novas features com metodologia ágil, utilizando tecnologias e ferramentas como HTML, CSS, Jasmine/JwHelperService/Fakers, SASS, SQL, AspNet, AspClassic, Angular 8+, TypeScript, ChartsJS, MapsJS e Figma.",
+    "tipoContrato": "PJ"
+  },
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "SOFTWILLIANS",
+    "periodo": "Fevereiro de 2021 - Fevereiro de 2022",
+    "descricao": "Desenvolvedor web trabalhando como pessoa jurídica (PJ) na empresa SoftWillians, tendo atuação na criação e implementação de novas features, criação de novos modelos de layouts, refatoração de layouts e trabalhando com metodologia ágil. Utilizando as tecnologias HTML, CSS, SCSS, SASS, SQL, Angular 8+, TypeScript, ChartsJS, Figma e .NET",
+    "tipoContrato": "PJ"
+  },
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "INFOMACH",
+    "periodo": "Setembro de 2020 - Fevereiro de 2021",
+    "descricao":"Desenvolvedor web contratado pela Infomach Tecnologia, atuando inicialmente como Product Designer, trabalhando para melhorar a UX dos pontos de contato do usuário nos produtos e criação de UI de novas features dos produtos da empresa. Após a aprovação do design, atuei desenvolvendo o front-end e implementando novos componentes e funcionalidades ao produto, utilizando tecnologias e ferramentas como Figma, Bootstrap, TypeScript, React.js, Django, Material-UI, Docker, JavaScript e Photoshop e consumo de API REST.",
+    "tipoContrato": "Contrato"
+  },
+  {
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "SANTANDER",
+    "periodo": "Janeiro de 2020 - Setembro de 2020",
+    "descricao":"Participação em um bootcamp de FullStack patrocinado pelo Santander Becas, onde tive a oportunidade de aperfeiçoar minhas habilidades e conhecimentos na área de desenvolvimento de software. Durante este período, tive a oportunidade de trabalhar com as tecnologias PostgreSQL, Java 11, JDBC e JPA, Spring Boot, Spring Cloud, HTML5, CSS3 e Angular 8, o que me permitiu adquirir uma visão mais completa do desenvolvimento de software e me preparar para trabalhar em projetos completos. Além disso, o treinamento também me permitiu desenvolver minhas habilidades em metodologias ágeis e trabalhar em equipe, o que é fundamental para atuar como desenvolvedor fullstack.",
+    "tipoContrato": "Beca"
+  }
+]

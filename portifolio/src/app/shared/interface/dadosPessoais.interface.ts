@@ -10,7 +10,7 @@ export interface DadosPessoais {
   endereco: string,
   cep: string,
   mensagem: string,
-  experiencia: Experiencia[],
+  experiencias: Experiencia[],
   educacao: Educacao[],
   idiomas: Idiomas[],
   habilidades: Habilidades[]

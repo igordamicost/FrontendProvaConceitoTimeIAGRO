@@ -1,0 +1,142 @@
+[
+  {
+    "nome": "HTML5",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "CSS3",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "SASS",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Javascript",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Typescript",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Angular 8+",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "React.js",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Node.js",
+    "nivel": "Iniciante"
+  },
+  {
+    "nome": "Jquery",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Bootstrap",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Material-UI",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Priming-NG",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "ChartsJS",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "MapsJS",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Django",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Java",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Spring Boot",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Spring Cloud",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "JDBC",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "JPA",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "PostgreSQL",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "ASP.NET",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "ASP Classic",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Figma",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Photoshop",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Jasmine",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "JwHelperService",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Fakers",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "SQL",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Docker",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Git",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "GitHub",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Jira",
+    "nivel": "Intermediário"
+  },
+  {
+    "nome": "Confluence",
+    "nivel": "Avançado"
+  },
+  {
+    "nome": "Azure DevOps",
+    "nivel": "Intermediário"
+  }
+]
