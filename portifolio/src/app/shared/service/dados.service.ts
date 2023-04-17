@@ -22,19 +22,19 @@ export class ResumeService {
 
   constructor(private http: HttpClient) { }
 
-  getDados(): Observable<DadosPessoais> {
-    return this.http.get<DadosPessoais>(this.dados);
+  getDados(): Observable<DadosPessoais[]> {
+    return this.http.get<DadosPessoais[]>(this.dados);
   }
-  getEducacao(): Observable<Educacao> {
-    return this.http.get<Educacao>(this.educacao);
+  getEducacao(): Observable<Educacao[]> {
+    return this.http.get<Educacao[]>(this.educacao);
   }
-  getExperiencias(): Observable<Experiencia> {
-    return this.http.get<Experiencia>(this.experiencia);
+  getExperiencias(): Observable<Experiencia[]> {
+    return this.http.get<Experiencia[]>(this.experiencia);
   }
-  getHabilidades(): Observable<Habilidades> {
-    return this.http.get<Habilidades>(this.habilidades);
+  getHabilidades(): Observable<Habilidades[]> {
+    return this.http.get<Habilidades[]>(this.habilidades);
   }
-  getIdiomas(): Observable<Idiomas> {
-    return this.http.get<Idiomas>(this.idiomas);
+  getIdiomas(): Observable<Idiomas[]> {
+    return this.http.get<Idiomas[]>(this.idiomas);
   }
 }

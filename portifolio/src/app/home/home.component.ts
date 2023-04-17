@@ -6,19 +6,21 @@ import { Educacao } from '../shared/interface/educação.interface';
 import { Habilidades } from '../shared/interface/habilidades.interface';
 import { Idiomas } from '../shared/interface/idiomas.interface';
 import { Subscription } from 'rxjs';
+import { faCode, faL } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public dadosPessoais: DadosPessoais | undefined;
-  public experiencias: Experiencia | undefined;
-  public educacao: any[] = [];
-  public habilidades: Habilidades | undefined;
-  public idiomas: Idiomas | undefined;
+  public dadosPessoais: DadosPessoais[] | undefined;
+  public experiencias: Experiencia[] | undefined;
+  public educacao: Educacao[] = [];
+  public habilidades: Habilidades[] | undefined;
+  public idiomas: Idiomas[] | undefined;
   public subscriptions: Subscription[] = [];
-
+  public faCode = faCode;
+  public faLinked = faL;
 
   constructor(
     public resumeService: ResumeService
@@ -32,57 +34,73 @@ export class HomeComponent implements OnInit {
     this.obterHabilidades()
   }
 
+  ngOnDestroy(): void {
+    this.unsubscribeAll();
+  }
+
   obterDadosPessoais() {
-  this.resumeService
+    const subscription = this.resumeService
     .getDados()
     .subscribe(
       (response) => {
         this.dadosPessoais = response
-        console.log(this.dadosPessoais)
+        console.log(this, 'dados pessoais')
       }
     )
+    this.subscriptions.push(subscription)
   }
 
   obterExperiencias() {
-    this.resumeService
+    const subscription = this.resumeService
       .getExperiencias()
       .subscribe(
         (response) => {
           this.experiencias = response
-          console.log(this.experiencias)
+          console.log(this.experiencias, 'experiencias')
         }
       )
+      this.subscriptions.push(subscription)
   }
 
   obterEducacao() {
     const subscription = this.resumeService
       .getEducacao()
-      .subscribe((response) => {
-        this.educacao.push(response)
-        console.log(this.educacao)
+      .subscribe(
+        (response) => {
+        this.educacao = response
+        console.log(this.educacao, 'educacao')
         })
         this.subscriptions.push(subscription)
   }
 
   obterHabilidades() {
-    this.resumeService
+    const subscription = this.resumeService
       .getHabilidades()
       .subscribe(
         (response) => {
           this.habilidades = response
-          console.log(this.habilidades)
+          console.log(this.habilidades, 'habilidades')
         }
       )
+      this.subscriptions.push(subscription)
   }
 
   obterIdiomas() {
-    this.resumeService
+    const subscription = this.resumeService
       .getIdiomas()
       .subscribe(
         (response) => {
           this.idiomas = response
+          console.log(this.idiomas, 'idiomas')
         }
       )
+      this.subscriptions.push(subscription)
+  }
+
+  public unsubscribeAll(): void {
+    for (const subscription of this.subscriptions) {
+      subscription.unsubscribe();
+    }
   }
 
 }

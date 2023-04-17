@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HomeModule } from './home/home.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ResumeService } from './shared/service/dados.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ResumeService } from './shared/service/dados.service';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [ResumeService],
   bootstrap: [AppComponent]
